@@ -1,2 +1,7 @@
 [[language]]
 name = "rust"
+
+[[language]]
+name = "python"
+file-types = ["py"]
+config = { "pylsp.plugins.flake8.enabled" = true, "pylsp.plugins.black.enabled" = true, "pylsp.plugins.flake8.config" = ".flake8"}
